@@ -1,0 +1,16 @@
+{
+  "name": "ai-living-world-phase1",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Phase 1 typed dialogue slice for a modular AI living-world game engine.",
+  "scripts": {
+    "demo": "node scripts/smokeDialogue.ts",
+    "test": "node --test tests/*.test.ts",
+    "check": "node --test tests/*.test.ts"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  }
+}
+
